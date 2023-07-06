@@ -1,0 +1,53 @@
+
+.navbar{
+    padding-top: $padding-size*1.5;
+    padding-bottom: $padding-size*1.5;
+    @include setTransitions(padding-top, 0.7s);
+    @include setTransitions(padding-bottom, 0.7s);
+    background-color: $thirdary-color;
+    .container{
+        button {
+            background-color: $primary-color;
+            padding: $text-size;
+            span{
+                color: white !important;
+            }
+        }
+        .navbar-brand{
+            color: $secondary-color;
+            font-weight: bold;
+            font-size: $title-size*1.2;
+            @include setTransitions(all, 0.8s);
+        }
+        .navbar-nav{
+            .nav-item{
+                a.nav-link{
+                    font-weight: bold;
+                    font-size: $text-size*1.3;
+                    &:hover{
+                        color: $primary-color !important;
+                    } 
+                    &.active:hover{
+                        color: $secondary-color !important;
+                    }
+                }
+            }
+            .nav-item:hover a{
+                color: $primary-color;
+            }
+            .active{
+                background-color: $primary-color;
+                border-radius: 8px;
+            }
+        }
+    }
+}
+.navbar.scrolled{
+    padding-top: $padding-size/1.5;
+    padding-bottom: $padding-size/1.5;
+    .container{
+        .navbar-brand{
+            font-size: $title-size;
+        }
+    }
+}

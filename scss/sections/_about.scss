@@ -1,0 +1,22 @@
+.about {
+    background-color: $primary-color;
+    padding-bottom: $padding-size*8;
+    padding-top: $padding-size*8;
+
+    h2 {
+        font-size: $title-size*1.5;
+        line-height: $lineHeight*2.5;
+        font-weight: bold;
+        color: $secondary-color;
+    }
+
+    p.lead {
+        line-height: 1.7;
+        padding: 0 $padding-size*1.5;
+    }
+    a{
+        font-size: $text-size*1.25;
+        padding: $padding-size $padding-size*1.75;
+        border: 3px solid;
+    }
+}

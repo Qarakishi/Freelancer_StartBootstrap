@@ -1,0 +1,299 @@
+$XSmallSize:0px;
+$SmallSize: 540px;
+$MediumSize: 720px;
+$LargeSize: 960px;
+$ExtraSize: 1140px;
+
+@media (min-width: $XSmallSize) {
+
+    .navbar {
+        .container {
+            .navbar-brand {
+                font-size: $text-size *1.5;
+            }
+
+            .navbar-toggler {
+                font-size: $text-size;
+            }
+
+            .navbar-nav {
+                .nav-item {
+                    a.nav-link {
+                        font-size: $text-size;
+                    }
+                }
+            }
+        }
+    }
+    header {
+        .intro {
+            h1 {
+                font-size: $title-size ;
+            }
+
+            .lineIcon-white {
+                .iconStar::before {
+                    margin-right: 90px;
+                    width: 100px;
+                }
+
+                .iconStar::after {
+                    margin-left: 90px;
+                    width: 100px;
+                }
+            }
+        }
+    }
+    #portfolio {
+        h2 {
+            font-size: $title-size;
+        }
+
+        .portfolio-picture {
+            max-width: 25rem;
+        }
+
+        .divider-custom {
+            .divider-custom-line {
+                width: 80px;
+
+                &:first-child {
+                    margin-right: 5px;
+                }
+
+                &:last-child {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+    #about {
+        h2 {
+            font-size: $title-size;
+        }
+
+        .divider-custom {
+            .divider-custom-line {
+                width: 80px;
+
+                &:first-child {
+                    margin-right: 5px;
+                }
+
+                &:last-child {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+    #contact {
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        h2 {
+            font-size: $title-size;
+        }
+
+        .divider-custom {
+            .divider-custom-line {
+                width: 80px;
+
+                &:first-child {
+                    margin-right: 5px;
+                }
+
+                &:last-child {
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        .col-4 {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+}
+@media (min-width: $SmallSize) {
+    .navbar {
+        .container {
+            .navbar-brand {
+                font-size: $text-size *1.5;
+            }
+
+            .navbar-toggler {
+                font-size: $text-size;
+            }
+
+            .navbar-nav {
+                .nav-item {
+                    a.nav-link {
+                        font-size: $text-size;
+                    }
+                }
+            }
+        }
+    }
+    header {
+        .intro {
+            h1 {
+                font-size: $title-size;
+            }
+
+            .lineIcon-white {
+                .iconStar::before {
+                    margin-right: 110px;
+                    width: 100px;
+                }
+
+                .iconStar::after {
+                    margin-left: 110px;
+                    width: 100px;
+                }
+            }
+        }
+    }
+    #portfolio {
+        h2 {
+            font-size: $title-size;
+        }
+
+        .portfolio-picture {
+            max-width: 25rem;
+        }
+
+        .divider-custom {
+            .divider-custom-line {
+                width: 80px;
+
+                &:first-child {
+                    margin-right: 5px;
+                }
+
+                &:last-child {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+    #about {
+        h2 {
+            font-size: $title-size;
+        }
+
+        .divider-custom {
+            .divider-custom-line {
+                width: 80px;
+
+                &:first-child {
+                    margin-right: 5px;
+                }
+
+                &:last-child {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+    #contact {
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        h2 {
+            font-size: $title-size;
+        }
+
+        .divider-custom {
+            .divider-custom-line {
+                width: 80px;
+
+                &:first-child {
+                    margin-right: 5px;
+                }
+
+                &:last-child {
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        .col-4 {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+}
+@media (min-width: $MediumSize) {
+    .navbar {
+        .container {
+            .navbar-brand {
+                font-size: $text-size*1.5;
+            }
+            .navbar-toggler {
+                font-size: $text-size;
+            }
+            .navbar-nav {
+                .nav-item {
+                    a.nav-link {
+                        font-size: $text-size;
+                    }
+                }
+            }
+        }
+    }
+    header {
+        .intro {
+            h1 {
+                font-size: $title-size*1.5;
+            }
+
+            .lineIcon-white {
+                .iconStar::before {
+                    margin-right: 130px;
+                    width: 100px;
+                }
+
+                .iconStar::after {
+                    margin-left: 130px;
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
+@media (min-width: $LargeSize) {
+    header {
+        .intro {
+            h1 {
+                font-size: $title-size*1.5;
+            }
+
+            .lineIcon-white {
+                .iconStar::before {
+                    margin-right: 150px;
+                    width: 100px;
+                }
+
+                .iconStar::after {
+                    margin-left: 150px;
+                    width: 100px;
+                }
+            }
+        }
+    }
+    footer {
+        .footer-title{
+            .icon{
+                a:first-child{
+                    padding: 6px 14px;
+                }
+                a{
+                    font-size: 15px;
+                    margin-right: 0px;
+                }
+            }
+        }
+    } 
+}

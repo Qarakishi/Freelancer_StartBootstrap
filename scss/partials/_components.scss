@@ -1,0 +1,241 @@
+//after
+%after {
+    position: relative; // bunu sorusmaq nece olur ki hem relative hemde after verdi
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 37%;
+        width: 140px;
+        height: 5px;
+        border-radius: 3px;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 37%;
+        width: 140px;
+        height: 5px;
+        border-radius: 3px;
+    }
+}
+
+header{
+    .intro{
+        .lineIcon-white {
+            .iconStar {
+                @extend %after;
+        
+                &::after {
+                    background-color: $secondary-color;
+                    left: 37%;
+                }
+        
+                &::before {
+                    background-color: $secondary-color;
+                    right: 37%;
+                }
+            }
+        
+            i {
+                color: $secondary-color;
+            }
+        }
+    }
+}
+
+#exampleModal {
+    .portfolio-modal-title {
+        font-size: $text-size*3;
+        line-height: $text-size*2.5;
+        font-weight: bold;
+        color: $thirdary-color !important;
+    }
+    .lineIcon-black {
+        .iconModal {
+            @extend %after;
+
+            &::after {
+                background-color: $thirdary-color;
+                left: 25%;
+            }
+
+            &::before {
+                background-color: $thirdary-color;
+                right: 25%;
+            }
+
+            i {
+                color: $thirdary-color;
+            }
+        }
+    }
+    .btn {
+        background-color: $primary-color;
+        color: $secondary-color;
+        border-color: $primary-color;
+    }
+}
+#exampleModal2 {
+    .portfolio-modal-title {
+        font-size: $text-size*3;
+        line-height: $text-size*2.5;
+        font-weight: bold;
+        color: $thirdary-color !important;
+    }
+    .lineIcon-black {
+        .iconModal {
+            @extend %after;
+
+            &::after {
+                background-color: $thirdary-color;
+                left: 25%;
+            }
+
+            &::before {
+                background-color: $thirdary-color;
+                right: 25%;
+            }
+
+            i {
+                color: $thirdary-color;
+            }
+        }
+    }
+    .btn {
+        background-color: $primary-color;
+        color: $secondary-color;
+        border-color: $primary-color;
+    }
+}
+#exampleModal3 {
+    .portfolio-modal-title {
+        font-size: $text-size*3;
+        line-height: $text-size*2.5;
+        font-weight: bold;
+        color: $thirdary-color !important;
+    }
+    .lineIcon-black {
+        .iconModal {
+            @extend %after;
+
+            &::after {
+                background-color: $thirdary-color;
+                left: 25%;
+            }
+
+            &::before {
+                background-color: $thirdary-color;
+                right: 25%;
+            }
+
+            i {
+                color: $thirdary-color;
+            }
+        }
+    }
+    .btn {
+        background-color: $primary-color;
+        color: $secondary-color;
+        border-color: $primary-color;
+    }
+}
+#exampleModal4 {
+    .portfolio-modal-title {
+        font-size: $text-size*3;
+        line-height: $text-size*2.5;
+        font-weight: bold;
+        color: $thirdary-color !important;
+    }
+    .lineIcon-black {
+        .iconModal {
+            @extend %after;
+
+            &::after {
+                background-color: $thirdary-color;
+                left: 25%;
+            }
+
+            &::before {
+                background-color: $thirdary-color;
+                right: 25%;
+            }
+
+            i {
+                color: $thirdary-color;
+            }
+        }
+    }
+    .btn {
+        background-color: $primary-color;
+        color: $secondary-color;
+        border-color: $primary-color;
+    }
+}
+#exampleModal5 {
+    .portfolio-modal-title {
+        font-size: $text-size*3;
+        line-height: $text-size*2.5;
+        font-weight: bold;
+        color: $thirdary-color !important;
+    }
+    .lineIcon-black {
+        .iconModal {
+            @extend %after;
+
+            &::after {
+                background-color: $thirdary-color;
+                left: 25%;
+            }
+
+            &::before {
+                background-color: $thirdary-color;
+                right: 25%;
+            }
+
+            i {
+                color: $thirdary-color;
+            }
+        }
+    }
+    .btn {
+        background-color: $primary-color;
+        color: $secondary-color;
+        border-color: $primary-color;
+    }
+}
+#exampleModal6 {
+    .portfolio-modal-title {
+        font-size: $text-size*3;
+        line-height: $text-size*2.5;
+        font-weight: bold;
+        color: $thirdary-color !important;
+    }
+    .lineIcon-black {
+        .iconModal {
+            @extend %after;
+
+            &::after {
+                background-color: $thirdary-color;
+                left: 25%;
+            }
+
+            &::before {
+                background-color: $thirdary-color;
+                right: 25%;
+            }
+
+            i {
+                color: $thirdary-color;
+            }
+        }
+    }
+    .btn {
+        background-color: $primary-color;
+        color: $secondary-color;
+        border-color: $primary-color;
+    }
+}

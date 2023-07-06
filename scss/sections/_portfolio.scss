@@ -1,0 +1,38 @@
+.portfolio {
+    margin-top: $margin-size*8;
+    margin-bottom: $margin-size*8;
+
+    h2 {
+        font-size: $title-size*1.5;
+        line-height: $lineHeight*2.5;
+        font-weight: bold;
+        color: $thirdary-color;
+    }
+
+    .portfolio-picture {
+        cursor: pointer;
+        position: relative;
+        border-radius: 15px;
+        overflow: hidden;
+
+        .portfolio-item {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: all 0.2s ease-in-out;
+            opacity: 0;
+            background-color: rgba(26, 188, 156, 0.9);
+
+        }
+
+        img {
+            border-radius: 15px;
+        }
+
+        &:hover .portfolio-item {
+            opacity: 1;
+            color: white;
+        }
+
+    }
+}
