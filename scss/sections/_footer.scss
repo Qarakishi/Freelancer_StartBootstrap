@@ -1,0 +1,50 @@
+footer {
+    .footer-title {
+        background-color: $thirdary-color;
+        color: $secondary-color;
+
+        .icon {
+            margin-top: $margin-sizeBig*1.1;
+
+            a {
+                margin-right: $margin-size;
+                font-size: 30px;
+                border: 4px solid;
+            }
+
+            a:first-child {
+                padding: 6px 19px;
+            }
+
+            a:hover {
+                border-color: $secondary-color;
+            }
+        }
+
+        h4 {
+            font-weight: bold;
+        }
+
+        p {
+            margin-top: $margin-sizeBig*1.1;
+            line-height: 1.8;
+            font-size: $text-size*1.25;
+        }
+
+        p:last-child {
+            padding: 0 $padding-size*1.875;
+
+            a {
+                color: $primary-color;
+            }
+
+            & :hover {
+                color: rgba($primary-color, 0.7);
+            }
+        }
+    }
+
+    .copyright {
+        background-color: $footer-color;
+    }
+}

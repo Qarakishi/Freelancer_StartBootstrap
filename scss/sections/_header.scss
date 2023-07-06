@@ -1,0 +1,29 @@
+header{
+    background-color: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: $padding-size*13;
+    padding-bottom: $padding-size*6;
+    .intro{
+        img{
+            width: 300px;
+        }
+        h1{
+            color: $secondary-color;
+            font-size: $title-size * 2.5;
+            font-weight:bold;
+        }
+        p{
+            color: $secondary-color;
+            font-size: $text-size * 1.5;
+            font-weight: 500;
+        }
+        .iconStar{
+            i{
+                color: $secondary-color;
+            }
+        }
+    }
+}

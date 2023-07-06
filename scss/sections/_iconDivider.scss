@@ -1,0 +1,83 @@
+#portfolio {
+    .divider-custom {
+        margin: $margin-size*1.25 0 $margin-size*1.5;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .divider-custom-line {
+            width: 100%;
+            max-width: 7rem;
+            height: 0.25rem;
+            background-color: $divider-color;
+            border-radius: $border-size;
+            border-color: $divider-color;
+        }
+        .divider-custom-line:first-child {
+            margin-right: $margin-size;
+        }
+        .divider-custom-line:last-child {
+            margin-left: $margin-size;
+        }
+        .divider-custom-icon {
+            color: $divider-color;
+            font-size: $text-size*2;
+        }
+    }
+}
+
+#contact {
+    .divider-custom {
+        margin: $margin-size*1.25 0 $margin-size*1.5;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .divider-custom-line {
+            width: 100%;
+            max-width: 7rem;
+            height: 0.25rem;
+            background-color: $divider-color;
+            border-radius: $border-size;
+            border-color: $divider-color;
+        }
+        .divider-custom-line:first-child {
+            margin-right: $margin-size;
+        }
+        .divider-custom-line:last-child {
+            margin-left: $margin-size;
+        }
+        .divider-custom-icon {
+            color: $divider-color;
+            font-size: $text-size*2;
+        }
+    }
+}
+
+#about {
+    .divider-custom {
+        margin: $margin-size*1.25 0 $margin-size*1.5;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .divider-custom-line {
+            width: 100%;
+            max-width: 7rem;
+            height: 0.25rem;
+            background-color: $secondary-color;
+            border-radius: $border-size;
+            border-color: $secondary-color;
+        }
+        .divider-custom-line:first-child {
+            margin-right: $margin-size;
+        }
+        .divider-custom-line:last-child {
+            margin-left: $margin-size;
+        }
+        .divider-custom-icon {
+            color: $secondary-color;
+            font-size: $text-size*2;
+        }
+    }
+}
